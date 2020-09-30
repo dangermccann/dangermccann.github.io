@@ -2,3 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+#header nav li.title {
+    float: left;
+}
+
+
+section #title {
+    margin: 0 0 0 0;
+}
+
