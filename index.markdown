@@ -7,30 +7,43 @@ layout: default
 
 This portfolio contains a variety of projects that I've put together in my spare time over the years.  
 
-# Optix Pathtracer
+# [Optix Raytracer / Pathtracer](./pathtracer)
+[![alt text](./assets/images/three-spheres.png "Ray Traced Spheres")](./pathtracer)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque ipsum eget mauris ultrices iaculis. Sed in magna molestie, blandit dui eget, lacinia est. Vestibulum nisi sapien, blandit a porta gravida, eleifend quis tortor. Nulla in eros fringilla, tempor risus non, laoreet nisi. Vivamus sed aliquet enim. Ut nibh est, aliquam vel ante non, iaculis elementum velit. Aenean in sem ac purus fringilla egestas. Nunc vitae sem condimentum, pretium nulla eget, aliquet ipsum. Praesent in sapien id nulla sodales congue. Etiam sem ante, vestibulum eget ipsum ac, ornare pharetra eros.
+
+Sed sapien eros, egestas posuere ante ac, euismod eleifend tortor. Ut magna metus, efficitur sed dignissim quis, volutpat in turpis. Nulla est tellus, placerat non sem eu, vulputate elementum ante. 
+
+---
+
+# [Lord Layor](./lormayor)
+[![alt text](./assets/images/gameplay1.png "Lord Mayor Gameplay")](./lormayor)
+
+Nullam id sapien nec lectus ullamcorper condimentum rutrum ullamcorper velit. Sed imperdiet lorem tellus, mollis imperdiet ante faucibus vel. In eget neque et dui molestie rhoncus ut placerat eros. Praesent blandit pretium interdum. Maecenas mauris neque, consectetur sit amet condimentum a, laoreet sed sapien. 
+
+Nullam enim nisl, sollicitudin eu facilisis sit amet, pretium ac sapien. Sed cursus eget augue vel malesuada. Nam sed erat ac ante feugiat commodo et ac urna. Pellentesque felis ligula, ornare in hendrerit ac, scelerisque in orci. 
+
+Aenean id arcu varius, imperdiet mauris maximus, rutrum eros. Nunc sodales ante vitae mauris convallis aliquam. Cras pulvinar ligula a justo fringilla dignissim. Proin sit amet lorem metus. In non iaculis dolor.
+
+---
+
+# [DCPU-IDE](./dcpuide)
+[![alt text](./assets/images/dcpu-ide.png "DCPU-IDE Screenshot")](./dcpuide)
+Duis massa diam, rutrum id nunc ac, consequat egestas orci. Quisque ut risus ipsum. Morbi pharetra nisi id consectetur aliquet. Aliquam est justo, eleifend vitae luctus ac, gravida eu lorem. Nullam porttitor sem vitae diam porta, ac convallis magna interdum. Maecenas in imperdiet mi. Etiam ut condimentum tellus, non ornare ante. Proin fermentum sapien at leo mattis posuere.
+
+---
+
+# Untitled Tower Defence Game
+TODO
+
+---
+
+# Arduino Controlled FPS
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./about/).
+---
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-Some text leading up to this
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
 ### Header 3
 
