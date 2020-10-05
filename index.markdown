@@ -38,7 +38,7 @@ I developed the game in Unity using C#.  All code was written by me from scratch
 ---
 
 # DCPU-IDE
-[![DCPU-IDE Screenshot](./assets/images/dcpu-ide.png "DCPU-IDE Screenshot")](./dcpuide)
+![DCPU-IDE Screenshot](./assets/images/dcpu-ide.png "DCPU-IDE Screenshot")
 DCPU-IDE a set of visual tools for developing software for the fictitious [DCPU-16 processor](https://github.com/dangermccann/dcpu16-ide/blob/master/specification.txt), a processor architecture developed for the defunct video game [0x10c](https://en.wikipedia.org/wiki/0x10c).  The suite of tools includes an assembler, emulator, editor and visual debugger that supports breakpoints, variable watches and memory contents.  
 
 The tools and site are written in JavaScript, and custom user programs are stored in AWS DynamoDB.  
