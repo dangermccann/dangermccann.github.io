@@ -6,6 +6,11 @@ permalink: /contact/
 
 # Contact John
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque ipsum eget mauris ultrices iaculis. Sed in magna molestie, blandit dui eget, lacinia est. Vestibulum nisi sapien, blandit a porta gravida, eleifend quis tortor. Nulla in eros fringilla, tempor risus non, laoreet nisi.
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="johnpatrickmccann"><a class="LI-simple-link" href='https://www.linkedin.com/in/johnpatrickmccann?trk=profile-badge'>John McCann</a></div>
 
 
+<br/>
+
+- [LinkedIn Profile](https://www.linkedin.com/in/johnpatrickmccann/)
+- [Github Profile](https://github.com/dangermccann)
