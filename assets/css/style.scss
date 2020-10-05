@@ -13,3 +13,19 @@ section #title {
     margin: 0 0 0 0;
 }
 
+#header nav li a {
+    background-color: transparent;
+    border-bottom: 2px solid #5d910b;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    font-size: 16px;
+}
+
+#header nav li a:hover {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #5d910b;
+    background-color: #959c95;
+}
