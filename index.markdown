@@ -6,11 +6,13 @@ layout: default
 This portfolio contains a variety of projects that I've put together in my spare time over the years.  
 
 # [Optix Ray Tracer & Path Tracer](./pathtracer)
-[![Ray Traced Spheres](./assets/images/three-spheres.png "Ray Traced Spheres")](./pathtracer)
+[![Path traced spheres](./assets/images/three-spheres-mis.png "Path traced spheres")](./pathtracer)
 
 For this project I wrote a general purpose path tracer in C++ using the [NVIDA OptiX 7.1](https://developer.nvidia.com/optix) ray tracing engine.  The program demonstrates a variety of different rendering techniques from simple Lambertian shading to complex physically based rendering with multiple importance sampling.  
 
 The application parses a scene file to build a graph containing vertices, triangles, spheres, material data and lighting data; it then builds the Optix pipeline containing the ray tracing programs, global acceleration structure containing the scene graph and shader binding table containing the material and lighting data.  The pipeline and data is then sent to the GPU and the ray generation program is launched.  
+
+The application is written in C++ using [NVIDIA OptiX 7.1](https://developer.nvidia.com/optix) and the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit).  
 
 - Source code can be shared upon request.  [Contact me](./contact/)
 

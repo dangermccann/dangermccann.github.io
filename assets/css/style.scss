@@ -29,3 +29,37 @@ section #title {
     border-bottom: 2px solid #5d910b;
     background-color: #959c95;
 }
+
+#contact-form td {
+    border-bottom: none;
+}
+
+#contact-form input {
+    width: 335px;
+}
+
+#contact-form textarea {
+    margin: 0px;
+    width: 335px;
+    height: 136px;
+}
+
+#contact-form button {
+    color: white;
+    border: 1px solid #5d910b;
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    background-color: #93bd20;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 2px solid #5d910b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+}
