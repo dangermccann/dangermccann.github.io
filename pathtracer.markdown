@@ -16,7 +16,7 @@ The application parses a scene file to build a graph containing vertices, triang
 ### Program Capabilities  
 - Ray generation program can generate multiple samples per pixel with sub-pixel jitter. 
 - Intersection program supports triangle and sphere primitives with arbitrary matrix transformations. 
-- ~Direct?~ lighting program with support for point and direct lights using Blinn-Phong shading. 
+- Ray traced lighting program with support for point and direct lights using Blinn-Phong shading. 
 - Direct lighting path tracer capable of illuminating scenes containing area lights with Monte Carlo estimation.   
 - Indirect light path tracer with cosine and BRDF importance sampling with implementations of modified Phong and GGX BRDFs. 
 - Can optionally use Russian roulette path termination. 
