@@ -32,7 +32,7 @@ The application parses a scene file to build a graph containing vertices, triang
 ### Screen shots
 Cornell box with Multiple Importance Sampling
 ![Multiple Importance Sampling](./assets/images/cornell-mis.jpg "Cornell Box with Multiple Importance Sampling")
-- 64 samples per pixel
+- 128 samples per pixel
 - Modified Phong and GGX BRDFs 
 - Single area light
 <hr/>
@@ -47,7 +47,7 @@ Six spheres rendered with direct Ray Tracing
 
 Six spheres rendered with Multiple Importance Sampling
 ![Path Traced Spheres with MIS](./assets/images/six-spheres-mis.png "Path Traced Spheres with MIS")
-- 64 samples per pixel
+- 256 samples per pixel
 - Modified Phong and GGX BRDFs 
 - Three overhead area light sources
 <hr/>
@@ -62,7 +62,7 @@ Six spheres rendered with direct Ray Tracing
 
 Three spheres rendered with Multiple Importance Sampling
 ![Path Traced Spheres](./assets/images/three-spheres-mis.png "Path Traced Spheres")
-- 64 samples per pixel
+- 256 samples per pixel
 - Modified Phong and GGX BRDFs 
 - Three overhead area light sources
 
