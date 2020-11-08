@@ -1,75 +1,89 @@
 ---
-
 layout: default
+cv_url: assets/John-McCann-CV.pdf
+tagline: Technology Leadership | Computer Graphics | Game Development
+about_1: John is an experienced technology leader with a passion for software development, computer graphics and making video games.
+about_2: John currently works at Comcast as VP of Connected Living Technology and lives in New Jersey with his family.
+email: danger.mccann@gmail.com
+phone: 917.837.7402
+hometown: Haddonfield, NJ
+contact_form: https://formspree.io/f/xeqpaoab
+projects:
+  - name: NVIDIA Optix Ray Tracer &amp; Path Tracer 
+    image: three-spheres-mis.png
+    category: Computer Graphics
+    url: raytracer
+  - name: Lord Mayor
+    image: LordMayor-Icon-Wide.png
+    category: Game Development
+    url: lord-mayor
+  - name: Untitled Base Defence Game
+    image: defense-game.png
+    category: Game Development
+    url: defense-game
+  - name: DCPU-IDE
+    image: dcpu-ide.png
+    category: Development Tools
+    url: dcpu-ide
+  - name: Arduino Controlled FPS
+    image: arduino-project.jpg
+    category: Hardware
+    url: arduino-fps
+  - name: h1tchr
+    image: h1tchr-logo-square.jpg
+    category: Web Development
+    url: h1tchr
+
+experience:
+  - name: Comcast
+    image_url: comcast.png
+    dates: 2011 - Present
+    content: |
+      ### Vice President, Connected Living Technology
+      
+      Hands-on technology leader who oversees an organization of 400 engineers with 
+      a $90 million budget building Comcast's flagship Wi-Fi product [Xfinity xFi](https://corporate.comcast.com/company/xfinityinternet/xfi), as well as Comcast's award winning home security product [Xfinity Home](https://www.xfinity.com/learn/home-security).
+
+      &nbsp;
+      ### Executive Director, Software Development
+
+      Directed a team of 60 software developers responsible for building the cloud-based user interface that powers the [Xfinity X1 Platform](https://corporate.comcast.com/news-information/news-feed/xfinity-tvs-next-generation-x1-platform-the-future-of-tv), the Emmy Award winning video product that runs on tens of millions of connected set-top boxes in the US and Canada.
+  - name: IndustryNext
+    image_url: IndustryNext.png
+    dates: 2005 - 2011
+    content: |
+      ### Director of Development
+
+      Managed the engineering department of a software services company that completed over 60 software development projects for a variety of companies in the media and entertainment space.  
+  - name: Viewpoint
+    image_url: viewpoint.png
+    dates: 2002 - 2005
+    content: | 
+      ### Lead Software Engineer
+
+      Architected an advanced internet ad serving platform which delivers rich media marketing content to millions of unique users.
+
+education:
+  - name: Johns Hopkins University
+    image_url: jhu.png
+    href: https://jhu.edu
+    dates: 1997 - 2001
+    content: |
+      ### Bachelors of Science in Computer Engineering
+      
+      Minor in Entrepreneurship and Business Management
+  - name: UC San Diego
+    image_url: uc-san-diego.png
+    href: https://ucsd.edu/
+    dates: 2020
+    content: |
+      ### Certificate of Achievement
+      
+      - CSE 167x: Computer Graphics
+      - CSE 167x: Computer Graphics II
+      
+
+
+
 ---
-
-This portfolio contains a variety of projects that I've put together in my spare time over the years.  
-
-# [Optix Ray Tracer & Path Tracer](./pathtracer)
-[![Path traced spheres](./assets/images/three-spheres-mis.png "Path traced spheres")](./pathtracer)
-
-For this project I wrote a general purpose path tracer in C++ using the [NVIDA OptiX 7.1](https://developer.nvidia.com/optix) ray tracing engine.  The program demonstrates a variety of different rendering techniques from simple Lambertian shading to complex physically based rendering with multiple importance sampling.  
-
-The application parses a scene file to build a graph containing vertices, triangles, spheres, material data and lighting data; it then builds the Optix pipeline containing the ray tracing programs, global acceleration structure containing the scene graph and shader binding table containing the material and lighting data.  The pipeline and data is then sent to the GPU and the ray generation program is launched.  
-
-The application is written in C++ using [NVIDIA OptiX 7.1](https://developer.nvidia.com/optix) and the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit).  
-
-- Source code can be shared upon request.  [Contact me](./contact/)
-
-[Read more...](./pathtracer)
-
-
----
-
-# [Lord Mayor](./lordmayor)
-[![Lord Mayor Gameplay](./assets/images/gameplay1.png "Lord Mayor Gameplay")](./lordmayor)
-
-Lord Mayor is a real-time strategy game with a vintage aesthetic that plays like a cross between a puzzler and a city builder. You play a newly minted Gentleman who is challenged to build cities that meet the demands of His Majesty the King. You are given a limited amount of time and resources, and must place buildings carefully to optimize their yield and promote various qualities on which the city is judged.
-
-Each level is a new city that must be built from scratch, and each presents varying terrain and victory conditions. As you conquer each level you are promoted through the ranks toward the ultimate title of Lord Mayor.
-
-I developed the game in Unity using C#.  All code was written by me from scratch, and visual assets were designed in Photoshop with the help of the [Vectorian](https://www.vectorian.net/) graphics pack.
-
-- [Lord Mayor website](https://lordmayorgame.com/)
-- [Source code](https://github.com/dangermccann/Lords)
-- [Purchase game on Steam](https://store.steampowered.com/app/499330/Lord_Mayor/)
-
-
-[Read more...](./lordmayor)
-
----
-
-# DCPU-IDE
-![DCPU-IDE Screenshot](./assets/images/dcpu-ide.png "DCPU-IDE Screenshot")
-DCPU-IDE a set of visual tools for developing software for the fictitious [DCPU-16 processor](https://github.com/dangermccann/dcpu16-ide/blob/master/specification.txt), a processor architecture developed for the defunct video game [0x10c](https://en.wikipedia.org/wiki/0x10c).  The suite of tools includes an assembler, emulator, editor and visual debugger that supports breakpoints, variable watches and memory contents.  
-
-The tools and site are written in JavaScript, and custom user programs are stored in AWS DynamoDB.  
-
-- [DCPU-IDE website](https://www.dcpu-ide.com) 
-- [Source code and documentation](https://github.com/dangermccann/dcpu16-ide) 
-
----
-
-# Untitled Base Defence Game
-![Defense Game Screenshot](./assets/images/defense-game.png "Defense Game Screenshot")
-This project is an unfinished, untitled base defense game where the player must protect their base for an onslaught of enemy ships.  The player can place turrets to fend off the attack and reactors that generate positive energy over time.  Dispensers can be used to launch a drone to attack an enemy spawner.  The player completes the level by accumulating enough energy from their reactors to reach the level target.  If enough enemy ships make it through the player's defences, the player's energy level reaches zero, and the player is defeated.  
-
-I developed the game from scratch in Unity using C#.  I modeled all 3D assets from scratch in Blender and used Substance Painter and Photoshop to create the textures.  
-
-- [Source code and game assets](https://github.com/dangermccann/Untitled)
-
----
-
-# Arduino Controlled FPS
-![Picture of Arduino and hardware](./assets/images/arduino-project.jpg "Picture of Arduino and hardware")
-This project demonstrates the ability for an Arduino-powered game controller to be used as an input source for a FPS game developed in Unity.  The game controller consists of a ATmega328P microcontroller, one or more MCP23017 I/O expansion ICs, a joystick, a 7-segment display and an arbitrary number of LEDs and buttons.
-
-The Arduino program supports low-latency bidirectional communication with the Unity game runtime over a USB connection using the [WRMHL](https://github.com/relativty/wrmhl) library.  
-
-- [Source code](https://github.com/dangermccann/MoonBase)
-
-
----
-
-
-
+ 

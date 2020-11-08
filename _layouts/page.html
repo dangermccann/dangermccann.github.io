@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include analytics.html %}
+    {% include meta.html %}
+    {% include stylesheets.html %}
+
+    <title>{{ page.title }}</title>
+
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="/#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#section-portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#section-resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+    <section class="site-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0 mt-4">
+					<img src="assets/images/{{ page.hero_image }}" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>{{ page.title }}</h2>
+					</div>
+					
+					<div class="lead">{{ page.lead | markdownify }}</div>
+                    
+                    {{ page.sublead | markdownify }}
+
+				</div>
+			</div>
+
+
+		</div>
+	
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-7 pl-lg-7">
+					{{ content }}
+
+				</div>
+
+				<div class="col-lg-5 pr-lg-5 mb-lg-0">
+					<div class="mb-4">
+						<h4>Screenshots</h4>
+					</div>
+
+                    {% for image in page.screenshots %}
+					<div class="thumb mb-2">
+						{{ image.caption }}
+						<img src="assets/images/{{ image.image_url }}" class="image">
+					</div>
+                    {% endfor %}
+					
+
+
+					
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						{% include social.html %}
+					</p>
+				</div>
+			</div>
+			<div class="row mb-5">
+				{% include copyright.html %}
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="assets/js/vendor/jquery.min.js"></script>
+	<script src="assets/js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+
+</body>
+</html>
