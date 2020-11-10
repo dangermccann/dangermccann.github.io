@@ -17,7 +17,14 @@ sublead: |
 screenshots:
   - image_url: dcpu-ide.png
     caption: The Integrated Development Environment
-
+  - image_url: dcpu-ide-4.png
+    caption: Assembly editor with syntax highlighting
+  - image_url: dcpu-ide-3.png
+    caption: Emulator display
+  - image_url: dcpu-ide-2.png
+    caption: Register listing
+  - image_url: dcpu-ide-1.png
+    caption: Settings dialog
 ---
 ### Highlights
 

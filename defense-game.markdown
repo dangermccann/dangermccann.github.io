@@ -11,6 +11,10 @@ sublead: |
   </p>
 
 screenshots:
+  - image_url: defense-game-2.png
+    caption: Game assets
+  - image_url: defense-game-1.png
+    caption: Drone mesh in Blender
   - image_url: defense-game.png
     caption: Gameplay screenshot
 
