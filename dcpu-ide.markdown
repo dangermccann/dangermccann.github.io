@@ -3,7 +3,8 @@ layout: page
 title: DCPU-IDE
 permalink: /dcpu-ide
 hero_image: dcpu-ide.png
-lead: <a href="https://www.dcpu-ide.com">DCPU-IDE</a> an Integrated Development Environment for developing software for the fictitious [DCPU-16 processor](https://github.com/dangermccann/dcpu16-ide/blob/master/specification.txt), a processor architecture developed for the defunct video game [0x10c](https://en.wikipedia.org/wiki/0x10c).  
+description: DCPU-IDE is an Integrated Development Environment for developing software for the fictitious DCPU-16 processor, a processor architecture developed for the defunct video game 0x10c.
+lead: <a href="https://www.dcpu-ide.com">DCPU-IDE</a> is an Integrated Development Environment for developing software for the fictitious [DCPU-16 processor](https://github.com/dangermccann/dcpu16-ide/blob/master/specification.txt), a processor architecture developed for the defunct video game [0x10c](https://en.wikipedia.org/wiki/0x10c).  
 
 sublead: |
   <p>

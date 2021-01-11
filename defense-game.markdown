@@ -3,6 +3,7 @@ layout: page
 title: Untitled Base Defence Game
 permalink: /defense-game
 hero_image: defense-game.png
+description:  This project is an unfinished, untitled base defense game where the player must protect their base for an onslaught of enemy ships. 
 lead:  This project is an unfinished, untitled base defense game where the player must protect their base for an onslaught of enemy ships. 
 
 sublead: |

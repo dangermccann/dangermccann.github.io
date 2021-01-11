@@ -3,6 +3,7 @@ layout: page
 title: Lord Mayor
 permalink: /lord-mayor
 hero_image: LordMayor-Icon-Wide.png
+description: Lord Mayor is a real-time strategy game with a vintage aesthetic that plays like a cross between a puzzler and a city builder.   
 lead: <a href="https://lordmayorgame.com/">Lord Mayor</a> is a real-time strategy game with a vintage aesthetic that plays like a cross between a puzzler and a city builder.   
 
 sublead: |

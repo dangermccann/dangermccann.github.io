@@ -5,7 +5,11 @@
     {% include meta.html %}
     {% include stylesheets.html %}
 
-    <title>{{ page.title }}</title>
+	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:description" content="{{ page.description }}">
+
 
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
@@ -34,7 +38,7 @@
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0 mt-4">
-					<img src="assets/images/{{ page.hero_image }}" alt="Image placeholder" class="img-fluid">
+					<img src="assets/images/{{ page.hero_image }}" alt="{{ page.title }}" class="img-fluid">
 				</div>
 				<div class="col-lg-5 pl-lg-5">
 					<div class="section-heading">
@@ -67,7 +71,7 @@
                     {% for image in page.screenshots %}
 					<div class="thumb mb-2">
 						{{ image.caption }}
-						<img src="assets/images/{{ image.image_url }}" class="image">
+						<img src="assets/images/{{ image.image_url }}" class="image" alt="{{ image.caption }}">
 					</div>
                     {% endfor %}
 					

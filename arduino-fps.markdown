@@ -3,6 +3,7 @@ layout: page
 title: Arduino Controlled FPS
 permalink: /arduino-fps
 hero_image: arduino-project.jpg
+description: This project demonstrates the ability for an Arduino-powered game controller to be used as an input source for a FPS game developed in Unity.  
 lead: This project demonstrates the ability for an Arduino-powered game controller to be used as an input source for a FPS game developed in Unity.  
 
 sublead: |

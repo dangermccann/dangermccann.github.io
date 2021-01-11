@@ -3,6 +3,7 @@ layout: page
 title: NVIDIA Optix Path Tracer
 permalink: /raytracer
 hero_image: six-spheres-mis.png
+description: For this project I wrote a general purpose path tracer in C++ using the NVIDA OptiX 7.1 ray tracing engine.  
 lead: For this project I wrote a general purpose path tracer in C++ using the [NVIDA OptiX 7.1](https://developer.nvidia.com/optix) ray tracing engine.  
 
 sublead: |
